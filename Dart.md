@@ -1,7 +1,7 @@
 # Dart
 
 
-#### 1) nullable , non-nullable
+#### 1. nullable , non-nullable
 - 변수형 뒤에 " ? " 를 붙이면 nullable
 - nullable 변수 뒤에 !를 붙임 => nullable,but not null
 
@@ -16,7 +16,7 @@ name2 = null;
 print(name2);
 ````
 
-#### 2) final, const
+#### 2. final, const
 - 한번 선언 하면 값을 변경할 수 없음
 - 자료형 선언(var) 또한 생략 가능!
 
@@ -42,7 +42,7 @@ final DateTime now1 = DateTime.now(); // 가능
 
 const DateTime now2 = DateTime.now(); // 불가능
 ````
-#### 3) null operator
+#### 3. null operator
 ````
 double? number = 4.0;
 
